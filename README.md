@@ -16,7 +16,7 @@ MODEL_OUTPUT: Es el nombre del modelo de salida
 
 LANGUAGE: Se le pasa el id del lenguage que tendrá el modelo. Por defecto sera español con el id 'es'
 
-####Ejemplo:
+#### Ejemplo:
 ```
 $ python ner_model_creator.py create_model source.tsv new_model es
 ```
@@ -34,7 +34,7 @@ MODEL_OUTPUT: Es el nombre del modelo de salida
 
 SOURCE_MODEL: Modelo que se pretende extender
 
-####Ejemplo:
+#### Ejemplo:
 ```
 $ python ner_model_creator.py create_model source.tsv new_model es_core_news_sm
 ```
